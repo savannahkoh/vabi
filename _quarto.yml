@@ -2,9 +2,12 @@ project:
   type: website
 
 website:
-  title: "vabi"
+  title: "a really good website"
   navbar:
     left:
+      - text: Introduction 
+        href: intro.html
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
@@ -12,7 +15,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - united
       - brand
     css: styles.css
     toc: true
