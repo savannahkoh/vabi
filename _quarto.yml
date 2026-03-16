@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "a really good website"
+  title: "IS428 Project "
   navbar:
     left:
       - text: Introduction 
